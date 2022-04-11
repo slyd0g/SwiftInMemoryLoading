@@ -1,6 +1,6 @@
 # SwiftInMemoryLoading
 
-Swift implementation of in-memory Mach-O execution. Tt should be noted that this is not truly file-less on macOS Monterey (see blogpost).
+Swift implementation of in-memory Mach-O execution. It should be noted that this is not truly file-less on macOS Monterey (see blogpost).
 - ```./SwiftInMemoryLoading /full/path/to/binary arg1 arg2 arg3```
 
 
@@ -8,7 +8,7 @@ Swift implementation of in-memory Mach-O execution. Tt should be noted that this
 fill_in
 
 
-## Example
+## Example Usage
 
 ![Example](https://raw.githubusercontent.com/slyd0g/SwiftInMemoryLoading/main/example.png)
 
