@@ -5,7 +5,7 @@ Swift implementation of in-memory Mach-O execution. Works on Big Sur and Montere
 
 
 ## Blogpost
-fill_in
+- https://slyd0g.medium.com/understanding-and-defending-against-reflective-code-loading-on-macos-e2e83211e48f
 
 
 ## Example Usage
