@@ -127,7 +127,7 @@ void executeMemory2(void* memory, int machoSize, const char* functionName, int a
         NSCreateObjectFileImageFromMemory(machoAddr, machoBufSize, &fileImage);
         module = NSLinkModule(fileImage, "module", NSLINKMODULE_OPTION_NONE);
         if (monterey == 1) {
-            module = ((uintptr_t)(module)) >> 1;
+            //module = ((uintptr_t)(module)) >> 1;
         }
 
         NSSymbol symbol = NSLookupSymbolInModule(module, "__mh_execute_header");
